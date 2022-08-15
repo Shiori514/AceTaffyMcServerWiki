@@ -30,3 +30,7 @@
     - mcmod.acetaffy.org:18852
     - 45.125.46.48:18850
     - 103.205.7.196:18850
+
+# **为服务器 Wiki 做贡献**
+
+该 Wiki 有一个 [Github 项目](https://github.com/Shiori514/AceTaffyMcServerWiki)，因此想添加或修改 Wiki 可以直接向该仓库 Pull Request。如果你不会，直接在群里跟群主说也行。
