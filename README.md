@@ -19,7 +19,7 @@
   - 不要额外安装会更改游戏内容的 mod （例如修改游戏地形生成、新增配方表、新增方块等），将导致服务器拒绝连接（这是1.13+的机制，不是服主不让你加）
   - 可以安装辅助类的 mod （例如小地图、显血、指向显示等），这一类 mod 不修改游戏内容
 
-#### 配置外置登录（仅 Java 版）
+#### 配置外置登录
 
   - 首先进入[服务器专属皮肤站](https://skin.mc.acetaffy.org)注册一个账号
   - 在启动器配置外置登录，以 HMCL 为例，点击左侧账户-左下角添加认证服务器，输入 https://skin.mc.acetaffy.org/api/yggdrasil ，然后点击左侧刚添加的认证服务器，输入在皮肤站注册的账号密码即可
@@ -30,6 +30,64 @@
     - mcmod.acetaffy.org:18852
     - 45.125.46.48:18850
     - 103.205.7.196:18850
+
+# **服务器模组介绍**
+
+仅介绍主要模组，前置之类的不写了。
+
+#### 机械动力 / Create 
+
+百科：
+
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/2021.html)
+  - [官方百科页面（英文）](https://github.com/Creators-of-Create/Create/wiki)
+
+服务器已安装的附属模组：
+
+  - 机械动力制作&附加 / Create Crafts && Additions
+  - 机械动力装饰 / Create Deco
+  - 机械动力工具附加 / Create Stuff Stuff Additions
+  - 机械动力甜食 / Create Confectionery
+  - Create Tweaker
+
+#### 沉浸工程 / Immersive Engineering
+
+百科：
+
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/463.html)
+  - 官方百科：书 + 拉杆 乱序合成
+
+服务器已安装的附属模组：
+
+  - 工程师的装饰 / Engineer's Decor
+
+#### 潘马斯农场2 / Pam's HarvestCraft 2
+
+百科：
+
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/2372.html)
+
+服务器已安装的关联模组：
+
+  - 懒人厨房 / Cooking for blockheads
+
+#### 匠魂2 / Tinkers' Construct 2
+
+百科：
+
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/683.html)
+  - [官方百科页面（英文）](https://github.com/SlimeKnights/TinkersConstruct/wiki)
+
+#### Corail的墓碑 / Corail's Tombstone
+
+百科：
+
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/1985.html)
+
+#### Music Maker Mod
+
+百科
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/4176.html)
 
 # **为服务器 Wiki 做贡献**
 
