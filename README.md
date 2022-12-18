@@ -4,14 +4,16 @@
 
 本服务器为粉丝自发组建的 Minecraft 公益性服务器，其建立与永雏塔菲本人无关。
 
-# **如何进入服务器（1.18.2模组服）**
+# **如何进入服务器（1.16.5模组服）**
 
 #### 安装 Java 运行时环境，此处提供以下几个版本
 
-  - [Oracle Java SE Development Kit 17.0.2](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)（针对 Windows x64 的安装包，跟随界面引导安装即可）
-  >大概是最常用的 JDK，不懂用这个就完事了
-  - [Alibaba Dragonwell 17.0.2.0.2+8](https://github.com/alibaba/dragonwell17/releases/download/dragonwell-17.0.2.0.2%2B8_jdk-17.0.2-ga/Alibaba_Dragonwell_17.0.2.0.2+8_x64_windows.zip)（针对 Windows x64 编译的二进制文件，需要自行设置系统环境变量）
-  >阿里巴巴主导的一个 OpenJDK 的分支，优化不错，需要自己配置路径
+  - ~~[Oracle Java SE Development Kit 17.0.2](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)（针对 Windows x64 的安装包，跟随界面引导安装即可）
+  >大概是最常用的 JDK，不懂用这个就完事了~~
+  - ~~[Alibaba Dragonwell 17.0.2.0.2+8](https://github.com/alibaba/dragonwell17/releases/download/dragonwell-17.0.2.0.2%2B8_jdk-17.0.2-ga/Alibaba_Dragonwell_17.0.2.0.2+8_x64_windows.zip)（针对 Windows x64 编译的二进制文件，需要自行设置系统环境变量）
+  >阿里巴巴主导的一个 OpenJDK 的分支，优化不错，需要自己配置路径~~
+  - [Oracle JDK 8](https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-windows-x64.exe)
+  - [阿里巴巴 Dragonwell 8](https://github.com/alibaba/dragonwell8/releases/download/dragonwell-extended-8.13.14_jdk8u352-ga/Alibaba_Dragonwell_Extended_8.13.14_x64_windows.zip)
 
 #### 安装 Minecraft 游戏客户端，可以选择群文件提供的整合包，也可以自行安装，如果自行安装请注意以下几点
 
