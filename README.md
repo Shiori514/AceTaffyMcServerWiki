@@ -4,40 +4,38 @@
 
 本服务器为粉丝自发组建的 Minecraft 公益性服务器，其建立与永雏塔菲本人无关。
 
-# **如何进入服务器（1.16.5模组服）**
+# **如何进入服务器**
 
-#### 安装 Java 运行时环境，此处提供以下几个版本
-<!-- 
-  - ~~[Oracle Java SE Development Kit 17.0.2](https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe)（针对 Windows x64 的安装包，跟随界面引导安装即可）~~
-  >~~大概是最常用的 JDK，不懂用这个就完事了~~
-  - ~~[Alibaba Dragonwell 17.0.2.0.2+8](https://github.com/alibaba/dragonwell17/releases/download/dragonwell-17.0.2.0.2%2B8_jdk-17.0.2-ga/Alibaba_Dragonwell_17.0.2.0.2+8_x64_windows.zip)（针对 Windows x64 编译的二进制文件，需要自行设置系统环境变量）~~
-  >~~阿里巴巴主导的一个 OpenJDK 的分支，优化不错，需要自己配置路径~~
--->
-  - [Oracle JDK 8](https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/java/jdk/8u202-b08/1961070e4c9b4e26a04e7f5a083f551e/jdk-8u202-windows-x64.exe)（即装即用）
-  - [阿里巴巴 Dragonwell 8](https://github.com/alibaba/dragonwell8/releases/download/dragonwell-extended-8.13.14_jdk8u352-ga/Alibaba_Dragonwell_Extended_8.13.14_x64_windows.zip)（性能更优，但需要自行配置路径）
+## 看看自己的系统
 
-#### 安装 Minecraft 游戏客户端，可以选择群文件提供的整合包，也可以自行安装，如果自行安装请注意以下几点
+如果你是个正常人，在用 Windows 打游戏，那就好办了。但如果你是用 Mac 打游戏的高手，那就需要一点点的技巧。
 
-  - 对于 Java 版，请使用支持外置登录的启动器（HMCL, BakaXL, PCL2 等）
-  - 不要额外安装会更改游戏内容的 mod （例如修改游戏地形生成、新增配方表、新增方块等），将导致服务器拒绝连接（这是1.13+的机制，不是服主不让你加）
-  - 可以安装辅助类的 mod （例如小地图、显血、指向显示等），这一类 mod 不修改游戏内容
+#### 下载群文件整合包
 
-#### 配置外置登录
+如题，下载，解压，双击 HMCL-***.exe 打开即可。
+（Mac系统下载后不要双击）
 
-  - 首先进入[服务器专属皮肤站](https://skin.mc.acetaffy.org)注册一个账号
-  - 在启动器配置外置登录，以 HMCL 为例，点击左侧账户-左下角添加认证服务器，输入 https://skin.mc.acetaffy.org/api/yggdrasil ，然后点击左侧刚添加的认证服务器，输入在皮肤站注册的账号密码即可
+#### 安装 Java 运行时环境
+
+在 HMCL 启动后之初，跟随引导自动安装即可。
+>如果你一定要自己安装，那我相信你的水平👍我就不教了。 
+（Mac 系统首先自行安装 brew，然后打开终端，输入`brew install openjdk@21`）
+
+#### 登录正版账号
+
+（Mac 系统另行下载群文件 HMCL-xxx.jar 放置在整合包的 HMCLxxx.exe 同级，然后在当前文件夹打开终端输入`java -jar <HMCL-xxx.jar>`记得把文件名都替换成实际文件名）
+HMCL 启动器左侧登录微软账号即可，跟随引导一步步完成。
 
 #### 进入游戏后在游戏内配置服务器
-  - 共有4个地址可供使用，自己按稳定性测试：
-    - mc3.acetaffy.org:40000
-    - mcmod.acetaffy.org:18852
-    - 45.125.46.48:18850
-    - 103.205.7.196:18850
+
+  1. 点击右下角启动游戏
+  1. 启动完成后点击多人游戏
+  1. 添加服务器，输入 mc.acetaffy.org:18852
 
 # **服务器架构**
 
-  - 没经费了，所以是家用机+frp内网穿透，网络经常故障，希望各位谅解。
-  - 服务器核心是 Arclight 1.16.5
+  - 没经费了，所以是家用机（R7 9800X3D + 96GB）+frp 内网穿透，网络经常故障，希望各位谅解。
+  - 服务器核心是 Arclight 1.20.1 （Spigot 1.20.1 + Forge 47.39）
 
 # **服务器模组介绍**
 
@@ -54,48 +52,15 @@
 
   - 机械动力制作&附加 / Create Crafts && Additions
   - 机械动力装饰 / Create Deco
-  - 机械动力工具附加 / Create Stuff Stuff Additions
-  - 机械动力甜食 / Create Confectionery
+  - 机械动力工具附加 / Create Stuff && Additions
   - Create Tweaker
 
-#### 沉浸工程 / Immersive Engineering
+#### 匠魂3 / Tinkers' Construct 3
 
 百科：
 
-  - [MC百科页面（中文）](https://www.mcmod.cn/class/463.html)
-  - 官方百科：书 + 拉杆 乱序合成
-
-服务器已安装的附属模组：
-
-  - 工程师的装饰 / Engineer's Decor
-
-#### 潘马斯农场2 / Pam's HarvestCraft 2
-
-百科：
-
-  - [MC百科页面（中文）](https://www.mcmod.cn/class/2372.html)
-
-服务器已安装的关联模组：
-
-  - 懒人厨房 / Cooking for blockheads
-
-#### 匠魂2 / Tinkers' Construct 2
-
-百科：
-
-  - [MC百科页面（中文）](https://www.mcmod.cn/class/683.html)
+  - [MC百科页面（中文）](https://www.mcmod.cn/class/3725.html)
   - [官方百科页面（英文）](https://github.com/SlimeKnights/TinkersConstruct/wiki)
-
-#### Corail的墓碑 / Corail's Tombstone
-
-百科：
-
-  - [MC百科页面（中文）](https://www.mcmod.cn/class/1985.html)
-
-#### Music Maker Mod
-
-百科
-  - [MC百科页面（中文）](https://www.mcmod.cn/class/4176.html)
 
 # **为服务器 Wiki 做贡献**
 
